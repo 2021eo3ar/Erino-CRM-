@@ -1,0 +1,44 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #202021; /* Black background */
+  color: #ffffff; /* White text */
+  min-height: 100vh; /* Ensure it takes full viewport height */
+  padding: 40px; /* Add some padding for spacing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Additional styling for consistent black theme */
+button {
+  background-color: #1f2937; /* Dark gray button */
+  color: #e5e7eb; /* Light gray text */
+  border: 1px solid #4b5563; /* Border for buttons */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #374151; /* Slightly lighter on hover */
+}
+
+input, .MuiTextField-root {
+  background-color: #1f2937; /* Dark input background */
+  color: #e5e7eb; /* Light text */
+  border: 1px solid #4b5563; /* Border for input */
+}
+
+input::placeholder {
+  color: #9ca3af; /* Placeholder text color */
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #4b5563; /* Border color for outlined text fields */
+}
+
+.MuiDialog-paper {
+  background-color: #1f2937; /* Dark background for dialog */
+  color: #e5e7eb; /* Light text */
+}
