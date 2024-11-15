@@ -3,7 +3,7 @@
 first clone this repository using Github Desktop or using this command ```git clone https://github.com/2021eo3ar/Erino-CRM-.git```
 
 ### Setup the backend
-1. To setup the backend make a ``.env`` file in the rool directory of backend folder just like the ``.env.sample`` file.
+1. To setup the backend make a ``.env`` file in the root directory of backend folder just like the ``.env.sample`` file.
 2. Then run this command ``npm install`` for backend by opening it in integrated terminal
 3. Then run ``npm start`` command to the run the backend.
 
