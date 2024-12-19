@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // Base URL for API endpoints
-const baseURL = 'http://localhost:5000/api/v1';
+const baseURL = 'http://localhost:8000/api/v1';
 
 // Async Thunks for CRUD operations
 
